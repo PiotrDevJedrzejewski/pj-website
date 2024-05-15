@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+$color-primary: #00b3ff;
+$color-secondary: rgb(219, 11, 7);
+$color-background: rgb(13, 13, 13);
+$color-background-secondary: #292929;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Orbitron', 'monospace';
+}
+
+body {
+  background-color: #fff;
+  color: #fff;
+}
+
+.container {
+  height: 100%;
+  background-color: #1c1b1b;
+}
+
+.glow {
+  text-shadow: 0 0 10px $color-primary, 0 0 20px $color-primary,
+    0 0 40px $color-primary, 0 0 80px $color-primary;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1440px) {
+  html {
+    font-size: 50%;
+  }
+}

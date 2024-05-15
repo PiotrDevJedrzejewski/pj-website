@@ -1,0 +1,50 @@
+.projects {
+  min-height: 100vh;
+  width: 100%;
+  background-color: $color-background-secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__container {
+    margin-top: 15rem;
+    min-height: 50rem;
+    width: 90%;
+    background-color: $color-background;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 8px 8px 24px 0px #000000;
+    padding: 7rem;
+    margin-bottom: 5rem;
+  }
+
+  &__title {
+    margin-bottom: 5rem;
+    font-size: 6rem;
+    font-weight: 700;
+    text-shadow: 0 0 10px $color-secondary, 0 0 20px $color-secondary,
+      0 0 40px $color-secondary, 0 0 80px $color-secondary;
+    font-weight: bold;
+  }
+}
+
+.project {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7rem;
+
+  &__img {
+    display: block;
+    width: 40%;
+    height: 15rem;
+    border: 1px solid blue;
+  }
+
+  &__info {
+    width: 50%;
+    display: block;
+    border: 1px solid green;
+  }
+}
