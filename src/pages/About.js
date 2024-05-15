@@ -6,11 +6,9 @@ const About = () => {
       <div className='about__container'>
         <img className='about__img' src='' alt='Me' />
         <h1 className='about__past'>Past</h1>
-        <p className='about__past-text'>
-          bla bla kursy bla bla szkoła bla bla młody dynamiczny zespół
-        </p>
+        <p className='about__past-text'>młody dynamiczny zespół</p>
         <h1 className='about__future'>Future</h1>
-        <p className='about__future-text'>NEXT.JS :PogU</p>
+        <p className='about__future-text'>nw work in progres</p>
       </div>
     </div>
   )
